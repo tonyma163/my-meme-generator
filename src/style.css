@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  margin: 0;
+}
+
+main {
+  padding: 36px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  background: #497062;
+  color: white;
+  padding: 20px;
+}
+
+.headerImg {
+  height: 100%;
+  margin-right: 6px;
+}
+
+.headerTitle {
+  font-size: 1.25rm;
+  margin-right: auto;
+}
+
+.headerProject {
+  font-size: 0.75rem;
+  font-weight: 500px;
+}
+
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+}
+
+.formInput {
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+  text-indent: 5px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.inputLabel {
+  text-align: center;
+  padding: 8px;
+
+  grid-column: 1 / -1;
+  font-size: 18px;
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  background: #18A370;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.meme {
+  margin-top: 10px;
+  margin-left: 0;
+  position: relative;
+  padding: 10px;
+  text-align: center;
+}
+
+.memeImg {
+  max-width: 100%;
+  border-radius: 3px;
+
+}
+
+.memeTextTop {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  text-align: center;
+  margin: 15px 0;
+  padding: 0 5px;
+
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+
+  color: white;
+
+  letter-spacing: 1px;
+  text-shadow:
+    2px 2px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    0 2px 0 #000,
+    2px 0 0 #000,
+    0 -2px 0 #000,
+    -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+
+.memeTextBottom {
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  text-align: center;
+  margin: 15px 0;
+  padding: 0 5px;
+
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+
+  color: white;
+
+  letter-spacing: 1px;
+  text-shadow:
+    2px 2px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    0 2px 0 #000,
+    2px 0 0 #000,
+    0 -2px 0 #000,
+    -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+
+.description {
+  text-align: center;
+  line-height: 2px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: #706549;
+}
